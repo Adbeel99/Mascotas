@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="DemoMVC.csproj" Id="a3d319fc-8782-0208-2df2-161e8869fcb3">
+    <Platform Project="x86" />
+  </Project>
+</Solution>

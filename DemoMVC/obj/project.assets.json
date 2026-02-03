@@ -1,0 +1,209 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Microsoft.EntityFrameworkCore.Tools/9.0.0": {
+        "type": "package"
+      },
+      "MySql.Data/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/MySql.Data.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "Microsoft.EntityFrameworkCore.Tools/9.0.0": {
+        "type": "package"
+      },
+      "MySql.Data/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/MySql.Data.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-arm64": {
+      "Microsoft.EntityFrameworkCore.Tools/9.0.0": {
+        "type": "package"
+      },
+      "MySql.Data/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/MySql.Data.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "Microsoft.EntityFrameworkCore.Tools/9.0.0": {
+        "type": "package"
+      },
+      "MySql.Data/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/MySql.Data.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "Microsoft.EntityFrameworkCore.Tools/9.0.0": {
+        "type": "package"
+      },
+      "MySql.Data/5.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/MySql.Data.dll": {}
+        },
+        "runtime": {
+          "lib/MySql.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.EntityFrameworkCore.Tools/9.0.0": {
+      "sha512": "qjw+3/CaWiWnyVblvKHY11rQKH5eHQDSbtxjgxVhxGJrOpmjZ3JxtD0pjwkr4y/ELubsXr6xDfBcRJSkX/9hWQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/9.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "docs/PACKAGE.md",
+        "microsoft.entityframeworkcore.tools.9.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net472/any/ef.exe",
+        "tools/net472/win-arm64/ef.exe",
+        "tools/net472/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
+      ]
+    },
+    "MySql.Data/5.1.7": {
+      "sha512": "NJk1iviU4idWjbZGypU6uczNypaiV2sN2sXogOy8yprCBpK8ugvZ2L5EAE0s/gucSHdAkvf3xyR8A6X5dT6hhg==",
+      "type": "package",
+      "path": "mysql.data/5.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.exe",
+        "lib/MySql.Data.dll",
+        "mysql.data.5.1.7.nupkg.sha512",
+        "mysql.data.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
+      "MySql.Data >= 2.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Laboratorio\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Laboratorio\\source\\repos\\Adbeel99\\DemoMVC\\DemoMVC.csproj",
+      "projectName": "ConsoleApplication",
+      "projectPath": "C:\\Users\\Laboratorio\\source\\repos\\Adbeel99\\DemoMVC\\DemoMVC.csproj",
+      "packagesPath": "C:\\Users\\Laboratorio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Laboratorio\\source\\repos\\Adbeel99\\DemoMVC\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "UsingMicrosoftNETSdk": false,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Laboratorio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "MySql.Data": {
+            "target": "Package",
+            "version": "[2.5.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "ConsoleApplication depende de MySql.Data (>= 2.5.0), pero no se encontró MySql.Data 2.5.0. MySql.Data 5.1.7 se resolvió en su lugar.",
+      "libraryId": "MySql.Data",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-arm64",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}

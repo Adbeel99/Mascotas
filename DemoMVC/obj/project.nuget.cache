@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "POMKwXYukSE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Laboratorio\\source\\repos\\Adbeel99\\DemoMVC\\DemoMVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Laboratorio\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.0\\microsoft.entityframeworkcore.tools.9.0.0.nupkg.sha512",
+    "C:\\Users\\Laboratorio\\.nuget\\packages\\mysql.data\\5.1.7\\mysql.data.5.1.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "ConsoleApplication depende de MySql.Data (>= 2.5.0), pero no se encontró MySql.Data 2.5.0. MySql.Data 5.1.7 se resolvió en su lugar.",
+      "projectPath": "C:\\Users\\Laboratorio\\source\\repos\\Adbeel99\\DemoMVC\\DemoMVC.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Laboratorio\\source\\repos\\Adbeel99\\DemoMVC\\DemoMVC.csproj",
+      "libraryId": "MySql.Data",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        ".NETFramework,Version=v4.8/win",
+        ".NETFramework,Version=v4.8/win-arm64",
+        ".NETFramework,Version=v4.8/win-x64",
+        ".NETFramework,Version=v4.8/win-x86"
+      ]
+    }
+  ]
+}
